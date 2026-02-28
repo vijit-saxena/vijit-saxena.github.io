@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Vijit&#39;s Dev Blog</title>
+    <title>Posts on Vijit Saxena</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Vijit&#39;s Dev Blog</description>
+    <description>Recent content in Posts on Vijit Saxena</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Feb 2026 05:28:32 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 01:48:07 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Sat, 28 Feb 2026 05:28:32 +0530</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description></description>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/about-me/</link>
+      <pubDate>Sun, 01 Mar 2026 01:48:07 +0530</pubDate>
+      <guid>http://localhost:1313/posts/about-me/</guid>
+      <description>&lt;p&gt;Life is lot like distributed backend, multiple tasks to perform each day, multiple roles to fit in but interestingly all by a single individual. Atleast this is not a case when working on a software application where I can define exact responsibility and expectations from each service running individually.&lt;/p&gt;
+&lt;p&gt;Hi, I am Vijit, currently developing distributed reliable systems for the fintech industry here in India.&lt;/p&gt;
+&lt;p&gt;It is facinating to design how a distributed application can communicate amongst itself and perform a certain task.
+As facinating as it could get while designing each component of a distributed system, it gets more and more interesting building one by hand, and the facination does not stop there, it grows seeing pods spin-up real time, scale, perform and not to mention break.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,8 @@
 baseURL = "https://vijit-saxena.github.io/"
 languageCode = "en-us"
-title = "Vijit's Dev Blog"
+title = "Vijit Saxena"
 theme = "PaperMod"
+enableEmoji = true
 
 [params]
   author = "Vijit Saxena"
