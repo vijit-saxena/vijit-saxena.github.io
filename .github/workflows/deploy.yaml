@@ -19,10 +19,11 @@ jobs:
           hugo-version: "0.157.0"
           extended: true
 
-      - name: Checkout PaperMod at v8.0
+      - name: Checkout PaperMod latest
         run: |
           cd themes/PaperMod
-          git checkout v8.0
+          git checkout master
+          git pull origin master
           cd ../..
 
       - name: Build
