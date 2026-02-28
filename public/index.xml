@@ -13,10 +13,8 @@
       <link>http://localhost:1313/posts/about-me/</link>
       <pubDate>Sun, 01 Mar 2026 01:48:07 +0530</pubDate>
       <guid>http://localhost:1313/posts/about-me/</guid>
-      <description>&lt;p&gt;Life is lot like distributed backend, multiple tasks to perform each day, multiple roles to fit in but interestingly all by a single individual. Atleast this is not a case when working on a software application where I can define exact responsibility and expectations from each service running individually.&lt;/p&gt;
-&lt;p&gt;Hi, I am Vijit, currently developing distributed reliable systems for the fintech industry here in India.&lt;/p&gt;
-&lt;p&gt;It is facinating to design how a distributed application can communicate amongst itself and perform a certain task.
-As facinating as it could get while designing each component of a distributed system, it gets more and more interesting building one by hand, and the facination does not stop there, it grows seeing pods spin-up real time, scale, perform and not to mention break.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Life is a lot like a distributed backend, multiple tasks to perform each day, multiple roles to fit into, but interestingly all by a single individual. At least this is not the case when working on a software application where I can define exact responsibilities and expectations from each service running individually.&lt;/p&gt;
+&lt;p&gt;Hi, I am Vijit, currently developing distributed reliable systems for the fintech industry here in India. It is fascinating to design how a distributed application can communicate amongst itself and perform a certain task. As fascinating as it could get while designing each component of a distributed system, it gets more and more interesting building one by hand, and the fascination does not stop there, it grows seeing pods spin up in real time, scale, perform and not to mention break.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
