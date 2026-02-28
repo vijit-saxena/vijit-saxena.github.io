@@ -6,16 +6,8 @@
     <description>Recent content on Vijit Saxena</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 01:48:07 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 02:03:12 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/posts/about-me/</link>
-      <pubDate>Sun, 01 Mar 2026 01:48:07 +0530</pubDate>
-      <guid>http://localhost:1313/posts/about-me/</guid>
-      <description>&lt;p&gt;Life is a lot like a distributed backend, multiple tasks to perform each day, multiple roles to fit into, but interestingly all by a single individual. At least this is not the case when working on a software application where I can define exact responsibilities and expectations from each service running individually.&lt;/p&gt;
-&lt;p&gt;Hi, I am Vijit, currently developing distributed reliable systems for the fintech industry here in India. It is fascinating to design how a distributed application can communicate amongst itself and perform a certain task. As fascinating as it could get while designing each component of a distributed system, it gets more and more interesting building one by hand, and the fascination does not stop there, it grows seeing pods spin up in real time, scale, perform and not to mention break.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Outage - The Sloppy API</title>
       <link>http://localhost:1313/posts/outage-01/</link>
@@ -24,6 +16,14 @@
       <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;So we work with trasactional data, extracting it either via PDF bank statements or through AccountAggregators, and categorising each transaction into various categories like Investment, Lender Txn, Self Transfers, identifying merchant transfers, etc and building insights over the data to help lender evaluate the loan applicant&amp;rsquo;s financial profile. For this categorisation part, we rely heavily on regex at the moment, identifying patterns for each transaction category.&lt;/p&gt;
 &lt;p&gt;There is a constant need for continious updates for regex patterns which we store in our centralised DB cluster, postgres.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/about-me/</link>
+      <pubDate>Wed, 25 Feb 2026 01:48:07 +0530</pubDate>
+      <guid>http://localhost:1313/posts/about-me/</guid>
+      <description>&lt;p&gt;Life is a lot like a distributed backend, multiple tasks to perform each day, multiple roles to fit into, but interestingly all by a single individual. At least this is not the case when working on a software application where I can define exact responsibilities and expectations from each service running individually.&lt;/p&gt;
+&lt;p&gt;Hi, I am Vijit, currently developing distributed reliable systems for the fintech industry here in India. It is fascinating to design how a distributed application can communicate amongst itself and perform a certain task. As fascinating as it could get while designing each component of a distributed system, it gets more and more interesting building one by hand, and the fascination does not stop there, it grows seeing pods spin up in real time, scale, perform and not to mention break.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
