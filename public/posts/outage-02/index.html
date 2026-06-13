@@ -8,9 +8,9 @@
 <title>Outage - Sloppy DB Schema | Vijit Saxena</title>
 <meta name="keywords" content="">
 <meta name="description" content="This outage is related to the one we faced recently explained in detail in my previous blog &ldquo;Outage - The Sloppy API&rdquo;.
-Backgroud
-As I&rsquo;d mentioned, our systems rely heavily over regexes for processing transactional data into separate category to profile and individual for their loan applications on behalf of our clients.
-We also profile every individual&rsquo;s bank statements for their correctness. One such check is to validate whether the user has submitted the statement agains the corretly mentioned bank as per the lender&rsquo;s request. To achieve this we have worked upon a loginc over identifying the bank mismatch between the one requested and the one submitted through the bank logos present within statement (if a logo exists, there are other set of checks if no bank logo present).">
+Background
+As I&rsquo;d mentioned, our systems rely heavily over regexes for processing transactional data into separate categories to profile an individual for their loan applications on behalf of our clients.
+We also profile every individual&rsquo;s bank statements for their correctness. One such check is to validate whether the user has submitted the statement against the correctly mentioned bank as per the lender&rsquo;s request. To achieve this we have worked upon a logic over identifying the bank mismatch between the one requested and the one submitted through the bank logos present within the statement (if a logo exists, there are other set of checks if no bank logo is present).">
 <meta name="author" content="Vijit Saxena">
 <link rel="canonical" href="http://localhost:1313/posts/outage-02/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
@@ -120,11 +120,43 @@ We also profile every individual&rsquo;s bank statements for their correctness. 
 </div>
   </header> 
   <div class="post-content"><p>This outage is related to the one we faced recently explained in detail in my previous blog &ldquo;Outage - The Sloppy API&rdquo;.</p>
-<h2 id="backgroud">Backgroud<a hidden class="anchor" aria-hidden="true" href="#backgroud">#</a></h2>
-<p>As I&rsquo;d mentioned, our systems rely heavily over regexes for processing transactional data into separate category to profile and individual for their loan applications on behalf of our clients.</p>
-<p>We also profile every individual&rsquo;s bank statements for their correctness. One such check is to validate whether the user has submitted the statement agains the corretly mentioned bank as per the lender&rsquo;s request. To achieve this we have worked upon a loginc over identifying the bank mismatch between the one requested and the one submitted through the bank logos present within statement (if a logo exists, there are other set of checks if no bank logo present).</p>
-<p>This data to validate against the bank logo is again stored in out postgres DB and in the table, column schema is set to <code>JSONField</code> but pratically the data present was of type ArrayField for long integers. This was working fine since ArrayField can be stored under the JSONField parameter.</p>
+<h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<p>As I&rsquo;d mentioned, our systems rely heavily over regexes for processing transactional data into separate categories to profile an individual for their loan applications on behalf of our clients.</p>
+<p>We also profile every individual&rsquo;s bank statements for their correctness. One such check is to validate whether the user has submitted the statement against the correctly mentioned bank as per the lender&rsquo;s request. To achieve this we have worked upon a logic over identifying the bank mismatch between the one requested and the one submitted through the bank logos present within the statement (if a logo exists, there are other set of checks if no bank logo is present).</p>
+<p>This data to validate against the bank logo is again stored in our postgres DB and in the table, column schema is set to <code>JSONField</code> but practically the data present was of type <code>ArrayField</code> for long integers. This was working fine since <code>ArrayField</code> can be stored under the <code>JSONField</code> parameter.</p>
 <h2 id="outage">Outage<a hidden class="anchor" aria-hidden="true" href="#outage">#</a></h2>
+<p>This outage was a mix of:</p>
+<ol>
+<li>
+</li>
+<li>
+</li>
+</ol>
+<h3></h3>
+<h3></h3>
+<h2 id="resolution">Resolution<a hidden class="anchor" aria-hidden="true" href="#resolution">#</a></h2>
+<ol>
+<li>
+</li>
+</ol>
+<ol start="2">
+<li>
+</li>
+</ol>
+<h2 id="learnings">Learnings<a hidden class="anchor" aria-hidden="true" href="#learnings">#</a></h2>
+<ol>
+<li>
+</li>
+<li>
+</li>
+</ol>
+<h2 id="actions">Actions<a hidden class="anchor" aria-hidden="true" href="#actions">#</a></h2>
+<ol>
+<li>
+</li>
+<li>
+</li>
+</ol>
 
 
   </div>
