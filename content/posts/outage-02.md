@@ -1,6 +1,6 @@
 +++
 date = '2026-03-01T03:14:42+05:30'
-draft = true
+draft = false
 title = 'Outage - Sloppy DB Schema'
 +++
 
