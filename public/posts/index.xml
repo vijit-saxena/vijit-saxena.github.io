@@ -6,8 +6,18 @@
     <description>Recent content in Posts on Vijit Saxena</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 02:03:12 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 03:14:42 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outage - Sloppy DB Schema</title>
+      <link>http://localhost:1313/posts/outage-02/</link>
+      <pubDate>Sun, 01 Mar 2026 03:14:42 +0530</pubDate>
+      <guid>http://localhost:1313/posts/outage-02/</guid>
+      <description>&lt;p&gt;This outage is related to the one we faced recently explained in detail in my previous blog &amp;ldquo;Outage - The Sloppy API&amp;rdquo;.&lt;/p&gt;
+&lt;h2 id=&#34;backgroud&#34;&gt;Backgroud&lt;/h2&gt;
+&lt;p&gt;As I&amp;rsquo;d mentioned, our systems rely heavily over regexes for processing transactional data into separate category to profile and individual for their loan applications on behalf of our clients.&lt;/p&gt;
+&lt;p&gt;We also profile every individual&amp;rsquo;s bank statements for their correctness. One such check is to validate whether the user has submitted the statement agains the corretly mentioned bank as per the lender&amp;rsquo;s request. To achieve this we have worked upon a loginc over identifying the bank mismatch between the one requested and the one submitted through the bank logos present within statement (if a logo exists, there are other set of checks if no bank logo present).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Outage - The Sloppy API</title>
       <link>http://localhost:1313/posts/outage-01/</link>

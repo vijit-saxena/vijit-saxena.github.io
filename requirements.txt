@@ -1,0 +1,12 @@
+# Hugo site requirements
+# To set up this project locally, install the following tools.
+
+# Hugo (extended build required for SCSS support)
+# Install via Homebrew: brew install hugo
+hugo == 0.157.0 (extended)
+
+# Theme: PaperMod v8.0 (included in themes/ directory)
+# No separate installation needed — theme is vendored.
+
+# Optional: gh CLI for deployments
+# Install via Homebrew: brew install gh
